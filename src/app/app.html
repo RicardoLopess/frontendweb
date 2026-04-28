@@ -1,0 +1,25 @@
+<div class="main">
+
+  <h1>Ricardo Lopes Moreira Rocha - 257066</h1>
+  <h1>Fernando José dos Santos Lima - 240039</h1>
+  <h1>Bernardo Thomé de Souza - 152687</h1>
+<p>{{ arrayDeTarefas() | json }}</p>
+  <input class="lg-text-input" #campoNovoItem />
+
+  <button class="btn-primary" (click)="CREATE_tarefa(campoNovoItem.value)">
+    Adicionar Tarefa
+  </button>
+
+  <!-- DEBUG (pode remover depois) -->
+  <p>{{ arrayDeTarefas() | json }}</p>
+
+  <ul>
+    <li *ngFor="let tarefaDoLoop of arrayDeTarefas()">
+      <app-item 
+        [tarefa]="tarefaDoLoop"
+        (removeTarefa)="DELETE_tarefa(tarefaDoLoop)">
+      </app-item>
+    </li>
+  </ul>
+
+</div>
