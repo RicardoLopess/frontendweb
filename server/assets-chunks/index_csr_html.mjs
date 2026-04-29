@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>TODOapp</title>
-  <base href="https://ricardolopess.github.io/frontendweb/">
+  <base href="frontendweb">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>body{font-family:Helvetica,Arial,sans-serif}</style><link rel="stylesheet" href="styles-ZLRHFWXW.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-ZLRHFWXW.css"></noscript></head>
 <body ngcm="">

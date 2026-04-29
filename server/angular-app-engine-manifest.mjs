@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://ricardolopess.github.io/frontendweb',
+  basePath: 'frontendweb',
   allowedHosts: [],
   supportedLocales: {
   "en-US": ""
